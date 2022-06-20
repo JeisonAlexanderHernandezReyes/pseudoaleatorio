@@ -3,6 +3,10 @@ package com.uptc.models.methods;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * @author JEISON ALEXANDER HERNANDEZ REYES
+ */
+
 public class Multiplicative {
 
     private int x;
