@@ -14,7 +14,7 @@ public class Window extends JFrame {
     private TabPanel tabs;
 
     public Window(ActionListener listener) {
-        this.setTitle("Pseudo-aleatory Generator");
+        this.setTitle("GENERADOR");
         this.setMinimumSize(new Dimension(WIDTH, HEIGHT));
         this.setLocationRelativeTo(null);
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
