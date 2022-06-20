@@ -2,7 +2,7 @@ package com.uptc.models.methods;
 
 import java.util.ArrayList;
 import java.util.List;
-import com.uptc.utils.Interval;
+import com.uptc.IO_Utils.Interval;
 import org.apache.commons.math3.distribution.NormalDistribution;
 
 public class Normal {

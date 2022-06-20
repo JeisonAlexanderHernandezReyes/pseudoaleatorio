@@ -13,9 +13,9 @@ import java.awt.event.ActionListener;
 import java.io.IOException;
 import java.util.List;
 import javax.swing.JOptionPane;
-import com.uptc.utils.FileManager;
-import com.uptc.utils.Interval;
-import com.uptc.utils.Ulitities;
+import com.uptc.IO_Utils.FileManager;
+import com.uptc.IO_Utils.Interval;
+import com.uptc.IO_Utils.Ulitities;
 
 /**
  * @author JEISON ALEXANDER HERNANDEZ REYES
