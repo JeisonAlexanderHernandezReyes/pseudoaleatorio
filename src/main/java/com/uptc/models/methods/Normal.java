@@ -5,6 +5,10 @@ import java.util.List;
 import com.uptc.IO_Utils.Interval;
 import org.apache.commons.math3.distribution.NormalDistribution;
 
+/**
+ * @author JEISON ALEXANDER HERNANDEZ REYES
+ */
+
 public class Normal {
 
     private double average;

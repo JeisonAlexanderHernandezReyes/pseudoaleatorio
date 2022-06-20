@@ -57,7 +57,6 @@ public class TabPanel extends JTabbedPane {
         return normal.getHeader();
     }
 
-    // Middle
     public void setMiddSTableRow(Object[] element) {
         midSquare.setTableRow(element);
     }
@@ -74,7 +73,6 @@ public class TabPanel extends JTabbedPane {
         midSquare.resetGraphic();
     }
 
-    // Linear
     public void resetLinearGraphic() {
         linear.resetGraphic();
     }
@@ -123,7 +121,6 @@ public class TabPanel extends JTabbedPane {
         uniform.setTableRow(element);
     }
 
-    // Normal
     public void setNormalTableRow(Object[] element) {
         normal.setTableRow(element);
     }

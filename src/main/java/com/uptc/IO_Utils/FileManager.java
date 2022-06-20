@@ -11,7 +11,7 @@ public class FileManager {
         BufferedWriter writer = new BufferedWriter(new FileWriter(path));
         for (Double number : numbers) {
             writer.write(String.valueOf(number));
-            writer.write("N°");
+            writer.write(" & ");
         }
         writer.close();
     }

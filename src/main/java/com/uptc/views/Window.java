@@ -9,18 +9,15 @@ import javax.swing.JFrame;
 public class Window extends JFrame {
 
     private static final long serialVersionUID = 1L;
-    private static final int WIDTH = 1200;
-    private static final int HEIGHT = 580;
+    private static final int WIDTH = 1920;
+    private static final int HEIGHT = 1080;
     private TabPanel tabs;
 
     public Window(ActionListener listener) {
         this.setTitle("Pseudo-aleatory Generator");
-        // this.setIconImage(new
-        // ImageIcon(getClass().getResource(ConstantsGUI.PATH_ICON_FRAME)).getImage());
         this.setMinimumSize(new Dimension(WIDTH, HEIGHT));
         this.setLocationRelativeTo(null);
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
-        // this.setExtendedState(MAXIMIZED_BOTH);
         initComponents(listener);
     }
 
@@ -49,7 +46,6 @@ public class Window extends JFrame {
         return tabs.getUniHeader();
     }
 
-    // Middle
     public void setMiddTableRow(Object[] element) {
         tabs.setMiddSTableRow(element);
     }
@@ -66,7 +62,6 @@ public class Window extends JFrame {
         tabs.resetMiddleGraphic();
     }
 
-    // Linear
     public void resetLinearGraphic() {
         tabs.resetLinearGraphic();
     }
@@ -83,7 +78,6 @@ public class Window extends JFrame {
         tabs.setLinearTableRow(element);
     }
 
-    // Multiplicative
     public void resetMultiplicativeTable() {
         tabs.resetMultiplicativeTable();
     }
@@ -100,7 +94,6 @@ public class Window extends JFrame {
         tabs.setMultiplicativeTableRow(element);
     }
 
-    // Uniform
     public void resetUniformTable() {
         tabs.resetUniformTable();
     }
@@ -117,8 +110,6 @@ public class Window extends JFrame {
         tabs.setUniformTableRow(element);
     }
 
-
-    //Normal
     public void setNormalTableRow(Object[] element) {
         tabs.setNormalTableRow(element);
     }
